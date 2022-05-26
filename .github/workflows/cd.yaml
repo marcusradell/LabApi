@@ -16,8 +16,8 @@ jobs:
       - name: Setup dotnet
         uses: actions/setup-dotnet@v2
         with:
-        dotnet-version: "7.x.x"
-        include-prerelease: true
+          dotnet-version: "7.x.x"
+          include-prerelease: true
 
       - name: build
         run: |
